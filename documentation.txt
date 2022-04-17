@@ -1,0 +1,39 @@
+Documentation for Str8EdgePoser
+
+
+
+Str8EdgePoser(choseMode, isRunning, playerCount)
+
+	pollConfession(yesCount, confessions{})
+
+	setUsernames()
+	
+	startGame(moles, round)
+
+		createGroupChat(playerNames[])
+
+		sendChat(message)	
+
+			eliminatePlayer(playerNames[i])
+			
+			startNextRound()
+
+	revealWinners()	
+	
+
+
+
+
+
+-----------------------------------------------------------------------------------
+Fields:
+
+String choseMode
+Boolean isRunning 
+int yesCount
+Map confessions<String, Boolean> 
+int playerCount
+
+
+-----------------------------------------------------------------------------------
+APIs:
